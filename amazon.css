@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* nav-bar starts here */
+
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border:hover
+{
+    outline: 1.2px solid white;
+    outline-offset: 1px;
+    cursor: pointer;
+}
+
+select:hover , .pointer:hover{
+    cursor: pointer;
+}
+
+
+/* LIGHT FONTS == 0.75REM
+   HEAVY FONTS == 0.95REM */
+
+
+
+/* box-1 logo */
+
+.nav-logo{
+    height: 60px;
+    width: 120px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* box2 address */
+
+.nav-add{
+    height: 40px;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-left: 0.25rem;
+}
+
+.add-icon
+{
+    display: flex;
+    align-items: center;
+}
+
+/* box-3 search bar */
+
+.nav-search{
+    display: flex;
+    width: 58%;  height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    width: 60px;
+    color: #0f1111;
+    text-align: center;
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-select:hover{
+    background-color: rgb(198, 196, 196);
+}
+
+.search-input{
+    border: none;
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 10px 0 10px 7px;
+}
+
+.search-icon{
+    width: 50px;
+    background-color: #febd68;
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: rgba(237, 180, 36, 0.923);
+    cursor: pointer;
+}
+
+/* box 4 language select */
+.language{
+    height: 40px;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    
+}
+.language-select{
+    color: white;
+    font-size: 0.95rem;
+    font-weight: bold;
+    /* margin-left: 0.2rem; */
+    background-color: #0f1111;
+    border: none;
+}
+
+/* box 5 Account Section */
+
+.sign-in{
+    height: 40px;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+.para-sign-in{
+    font-size: 0.75rem;
+    margin-left: 0.2rem;
+}
+.select-account{
+    color: white;
+    font-size: 0.95rem;
+    font-weight: bold;
+    background-color: #0f1111;
+    border: none;
+}
+
+/* box 6 Returns and Orders */
+
+.returns-orders{
+    height: 40px;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+.para-returns{
+    font-size: 0.75rem;
+}
+.para-orders{
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+/* box 7 Cart */
+
+.cart{
+    height: 40px;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.para-cart{
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+    margin-top: 0.8rem;
+}
+
+/* nav-bar ends here */
+
+
+
+/* nav-panel starts here */
+
+.nav-panel{
+    height: 40px;
+    background-color: #222f3d;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+/* box 1 nav-panel-all */
+.nav-panel-all{
+    padding: 0.25rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-panel-all i{
+    font-size: 1.2rem;
+}
+.nav-panel-all p{
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+/* box 2 nav-panel-links */
+
+.nav-panel-links a{
+    padding: 0.25rem;
+    text-decoration: none;
+    margin-left: 0.8rem;
+    color: white;
+}
+
+/* nav-panel ends here */
+
+
+/*Section 1 Hero Section */
+
+.hero{
+    height: 350px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* section 2 Shopping */
+
+.shopping-section{
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: 400px;
+    grid-gap: 1.25rem;
+    background-color: rgb(199, 215, 220);
+    margin-bottom: 0.5rem;
+}
+.box{
+    background-color: whitesmoke;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+}
+.box a{
+    text-decoration: none;
+    color: #007185
+}
+.box a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+/* shopping-section ends here */
+
+/* recommendations // sign-up section */
+
+.recommendations{
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;                /*line height is used*/
+}
+.recommendations a{
+    width: 280px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 0.95rem;
+    font-weight: bold;
+    background-color: rgb(224, 161, 35);
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.recommendations a:hover{
+    background-color: rgb(205, 139, 6);
+}
+.recommendations span{
+    color: #007185;
+    font-weight: bold;
+}
+
+/* recommendations // sign-up section ends here */
+
+/* footer starts here */
+.back-to-top{
+    margin-top: 0.5rem;
+    height: 3rem;
+    font-size: 0.85rem;
+    background-color:#415164;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top:hover{
+    cursor: pointer;
+    background-color: #4e6178;
+}
+
+
+/* Help Corner */
+
+
+.help-corner{
+    height: 500px;
+    background-color: #222f3d;
+}
+
+/* careers*/
+
+.career{
+    height: 400px;
+    padding: 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.career-grids{
+    height: 300px;
+    width: fit-content;
+    line-height: 1.8rem;            /*line height is used*/
+    color: white;
+}
+.career-grids a{
+    display: block;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+/* footer-amazon-logo */
+
+.footer-logo{
+    height: 100px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazon-logo{
+    background-image: url(amazon_logo.png);
+    height: 80px;
+    width: 160px;
+    background-size: cover;
+}
+
+/* Help Corner ends here */
+
+/* footer ends here */
